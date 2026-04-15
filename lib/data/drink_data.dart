@@ -1,0 +1,123 @@
+import 'package:flutter/material.dart';
+
+import '../models/drink_item.dart';
+
+const List<DrinkItem> cafeDrinks = <DrinkItem>[
+  DrinkItem(
+    name: 'Spanish Latte',
+    category: 'Coffee',
+    subtitle: 'espresso, condensed milk, silky foam',
+    description:
+        'A sweet creamy latte with a rich espresso body and a soft caramel finish.',
+    price: 13500,
+    rating: 4.9,
+    imageUrl: 'assets/images/spanish_latte.jpg',
+    color: Color(0xFF8B5E3C),
+    options: <String>['Oat milk', 'Extra shot', 'Less sweet'],
+  ),
+  DrinkItem(
+    name: 'Americano',
+    category: 'Coffee',
+    subtitle: 'double shot, hot water, deep aroma',
+    description:
+        'Bold, clean, and strong for people who want a classic black coffee.',
+    price: 11000,
+    rating: 4.6,
+    imageUrl: 'assets/images/americano.jpg',
+    color: Color(0xFF5C4033),
+    options: <String>['Extra shot', 'Iced', 'Room for milk'],
+  ),
+  DrinkItem(
+    name: 'Iced Matcha Latte',
+    category: 'Matcha',
+    subtitle: 'ceremonial matcha, milk, clean finish',
+    description:
+        'Fresh grassy matcha shaken over ice for a creamy, bright afternoon drink.',
+    price: 14500,
+    rating: 4.8,
+    imageUrl: 'assets/images/iced_matcha_latte.jpg',
+    color: Color(0xFF5F8D4E),
+    options: <String>['Almond milk', 'Vanilla cream', 'Light ice'],
+  ),
+  DrinkItem(
+    name: 'Brown Sugar Milk Tea',
+    category: 'Tea',
+    subtitle: 'black tea, milk, brown sugar pearls',
+    description:
+        'A creamy milk tea with chewy pearls and warm brown sugar sweetness.',
+    price: 14200,
+    rating: 4.8,
+    imageUrl: 'assets/images/brown_sugar_milk_tea.jpg',
+    color: Color(0xFF7A5230),
+    options: <String>['Less sugar', 'Extra pearls', 'Sea salt foam'],
+  ),
+  DrinkItem(
+    name: 'Peach Iced Tea',
+    category: 'Tea',
+    subtitle: 'black tea, peach nectar, citrus ice',
+    description: 'A light fruit tea with peach sweetness and a crisp citrus finish.',
+    price: 12500,
+    rating: 4.5,
+    imageUrl: 'assets/images/peach_iced_tea.jpg',
+    color: Color(0xFFE08E45),
+    options: <String>['Mint', 'No sugar', 'More peach'],
+  ),
+  DrinkItem(
+    name: 'Strawberry Lemonade',
+    category: 'Refresher',
+    subtitle: 'lemon, strawberry puree, sparkling finish',
+    description:
+        'A bright cold refresher with berry sweetness and fresh lemon sharpness.',
+    price: 12800,
+    rating: 4.7,
+    imageUrl: 'assets/images/strawberry_lemonade.jpg',
+    color: Color(0xFFD65A73),
+    options: <String>['Extra lemon', 'Mint leaves', 'No soda'],
+  ),
+  DrinkItem(
+    name: 'Passion Mojito Soda',
+    category: 'Refresher',
+    subtitle: 'passion fruit, lime, mint sparkle',
+    description: 'A cool sparkling drink with tropical fruit and minty freshness.',
+    price: 13000,
+    rating: 4.7,
+    imageUrl: 'assets/images/passion_mojito_soda.jpg',
+    color: Color(0xFFC9821F),
+    options: <String>['Extra mint', 'More lime', 'No soda'],
+  ),
+  DrinkItem(
+    name: 'Mango Smoothie',
+    category: 'Smoothie',
+    subtitle: 'mango, yogurt, tropical blend',
+    description: 'A thick fruity smoothie with creamy yogurt and bright mango flavor.',
+    price: 15000,
+    rating: 4.8,
+    imageUrl: 'assets/images/mango_smoothie.jpg',
+    color: Color(0xFFE6A22D),
+    options: <String>['Chia seeds', 'Protein shot', 'No yogurt'],
+  ),
+  DrinkItem(
+    name: 'Blueberry Yogurt Shake',
+    category: 'Smoothie',
+    subtitle: 'blueberries, yogurt, creamy swirl',
+    description:
+        'A tart creamy shake with blueberry flavor and a smooth rich texture.',
+    price: 15200,
+    rating: 4.6,
+    imageUrl: 'assets/images/blueberry_yogurt_shake.jpg',
+    color: Color(0xFF6C70C5),
+    options: <String>['Honey', 'Granola dust', 'Extra berries'],
+  ),
+  DrinkItem(
+    name: 'Dark Hot Chocolate',
+    category: 'Chocolate',
+    subtitle: 'cocoa, steamed milk, whipped finish',
+    description:
+        'A rich chocolate drink with a cozy dessert feel and deep cocoa taste.',
+    price: 13800,
+    rating: 4.9,
+    imageUrl: 'assets/images/dark_hot_chocolate.jpg',
+    color: Color(0xFF6A3C32),
+    options: <String>['Marshmallow', 'Oat milk', 'Extra cocoa'],
+  ),
+];
